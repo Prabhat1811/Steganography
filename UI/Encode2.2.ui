@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="Tab1">
+    <attribute name="title">
+     <string>Encode</string>
+    </attribute>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1201</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="acceptDrops">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>330</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Choose</string>
+      </property>
+     </widget>
+     <widget class="QDialogButtonBox" name="buttonBox">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>620</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="standardButtons">
+       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>100</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Image</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Audio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Video</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Document</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>File Type:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>220</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>File Name:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>410</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Message:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>520</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Signature:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>380</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Segoe UI&quot;;
+background-color: #e2e2e2;</string>
+      </property>
+      <property name="text">
+       <string>None</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>380</y>
+        <width>561</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="placeholderText">
+       <string>Message to hide</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>631</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Drag&amp;Drop OR Choose a File</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>520</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Password to make hidden message more secure</string>
+      </property>
+     </widget>
+     <zorder>textEdit_2</zorder>
+     <zorder>label_9</zorder>
+     <zorder>textEdit</zorder>
+     <zorder>pushButton_3</zorder>
+     <zorder>buttonBox</zorder>
+     <zorder>comboBox</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_7</zorder>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Tab2">
+    <attribute name="title">
+     <string>Decode</string>
+    </attribute>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1201</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>330</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Choose</string>
+      </property>
+     </widget>
+     <widget class="QDialogButtonBox" name="buttonBox_2">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>480</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="standardButtons">
+       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>100</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Image</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Audio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Video</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Document</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>File Type:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>220</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>File Name:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>380</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 350 16pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Signature:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>631</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string>Drag&amp;Drop OR Choose a File</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>380</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Password</string>
+      </property>
+     </widget>
+     <zorder>label_10</zorder>
+     <zorder>pushButton_4</zorder>
+     <zorder>buttonBox_2</zorder>
+     <zorder>comboBox_2</zorder>
+     <zorder>label_5</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_8</zorder>
+     <zorder>textEdit_3</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

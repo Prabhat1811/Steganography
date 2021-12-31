@@ -1,0 +1,40 @@
+STEGANOGRAPHY
+
+1. Minimal UI using pyqt5.
+2. Has a drag functonality or user can specify file.
+3. Software displays the maximum amount of characters the filetype can accomodate.
+4. User specifies the target location where the file is to be saved.
+
+ALGORITHM DESIGN
+
+1. Has some reserved bits as a signature for checking if the file was modified earlier, how many characters it has etc.
+2. Initially the program will put a character at each 8th bit, the user may decrease that number to accomodate more characters.
+3. Algorithms - Least Significant Bit Steganography, 
+4. Username and password is required to login into the software and the username and password is used later in the image for a further security.
+5. Remember these things later - *Image may be cropped later, *
+
+BIBLIOGRAPHY
+
+https://arxiv.org/ftp/arxiv/papers/1112/1112.2809.pdf#:~:text=His%20steganography%20algorithm%20is%20based,selected%20randomly%20rather%20than%20sequentially.
+https://www.geeksforgeeks.org/image-based-steganography-using-python/
+https://realpython.com/python-pyqt-gui-calculator/
+
+THINGS TO IMPLEMENT:
+1. Write test cases
+2. image*
+3. audio
+4. video
+5. document
+6. drag and drop
+7. open file explorer *
+8. buttons*
+9. show character length
+10. Message line edit not moving to new line *
+11. New diaglog for show message in decode section.
+12. set icon *
+13. Set name*
+14. show dragged file name*
+15. Display error messages when user has not selected a file, text is empty
+16. When a file is choosen and if again choose is pressed but this time file is not choosen but the cancel button is pressed, the previous file is removed.
+17.Check if application works for images sent over the internet
+18. Filename, message, password vanishes when clicked the ok botton

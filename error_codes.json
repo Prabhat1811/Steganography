@@ -1,0 +1,12 @@
+{
+    "_comment": "Error codes with error names",
+    "errorCodes": [
+        {"code": 101, "error": "Type not supported."},
+        {"code": 102, "error": "Invalid input."},
+        {"code": 103, "error": "Password must be of 6 characters only."},
+        {"code": 104, "error": "Filename cannot be empty"},
+        {"code": 105, "error": "Message cannot be empty"},
+        {"code": 106, "error": "Password is incorrect"}, 
+        {"code": 201, "error": "Couldn't encode file"},
+        {"code": 202, "error": "Couldn't decode file"}
+    ]}
